@@ -23,7 +23,7 @@
     <ClCompile Include="patterns.cpp">
       <Filter>Resource Files\Conditional-Statement</Filter>
     </ClCompile>
-    <ClCompile Include="index.cpp">
+    <ClCompile Include="functions.cpp">
       <Filter>Resource Files\functions</Filter>
     </ClCompile>
   </ItemGroup>
