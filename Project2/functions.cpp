@@ -23,23 +23,49 @@ using namespace std;
 //		fac *= i;
 //	
 //	}
-//	}
+//	
 //	return fac;
 //}
 
 // Pass by Value concept ;
 
-int sumDigits(int x) {
-	int sum = 0;
-	while (x > 0) {
-		int lastDigit = x % 10;
-		x /= 10;
+//int sumDigits(int x) {
+//	int sum = 0;
+//	while (x > 0) {
+//		int lastDigit = x % 10;
+//		x /= 10;
+//
+//		sum += lastDigit;
+//	}
+//	return sum;
+//}
 
-		sum += lastDigit;
+
+// Bionomail confficient 
+int factorialNumber(int num, int rc) {
+	int facN = 1;
+	int facR = 1;
+	int facNRCS = 1;
+	int initialResult = 0;
+	for (int i = 1; i <= num; i++) {
+		facN *= i;
+	}	
+
+	for (int i = 1; i <= rc; i++) {
+		facR *= i;
 	}
-	return sum;
-}
+	
+	int facNRC = num - rc;
+	for (int i = 1; i <= facNRC; i++) {
+		facNRCS *= i;
+	}
 
+	initialResult = facR * facNRCS;
+	int result = facN / initialResult;
+	return result;
+
+
+}
 
 
 int main() {
@@ -47,6 +73,7 @@ int main() {
 	//cout << number << endl;
 	//cout << sumNumber(5) << endl;
 	//cout << factorialNumber(3) << endl;
-	cout << sumDigits(2356) << endl;
+	//cout << sumDigits(2356) << endl;
+	cout << factorialNumber(8, 2) << endl;
 	return 0;
 }
