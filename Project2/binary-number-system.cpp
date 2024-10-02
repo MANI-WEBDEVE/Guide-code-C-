@@ -38,7 +38,8 @@ int binaryToDec(int decimal) {
 }
 
 int main() {
-	cout << decimalBinary(101)<< endl;
+	//cout << decimalBinary(50) << endl;
+	cout << decimalBinary(37) << endl;
 	cout << binaryToDec(1100101) << endl;
 	return 0;
 }
