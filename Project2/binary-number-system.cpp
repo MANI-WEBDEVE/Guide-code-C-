@@ -20,7 +20,25 @@ int decimalBinary(int decimal) {
  
 }
 
+int binaryToDec(int decimal) { 
+	int ans = 0;
+	int power = 1;
+	int remainder;
+
+	while (decimal > 0) {
+		remainder = decimal % 2;
+		decimal /= 10;
+
+		ans += (remainder * power);
+		power *= 2;
+
+
+	}
+	return ans;
+}
+
 int main() {
-	cout << decimalBinary(190) << endl;
+	cout << decimalBinary(101)<< endl;
+	cout << binaryToDec(1100101) << endl;
 	return 0;
 }

@@ -29,7 +29,7 @@
     <ClCompile Include="functions.cpp">
       <Filter>Resource Files\functions</Filter>
     </ClCompile>
-    <ClCompile Include="index.cpp">
+    <ClCompile Include="binary-number-system.cpp">
       <Filter>Resource Files\Binary-Number-System</Filter>
     </ClCompile>
   </ItemGroup>
