@@ -123,28 +123,28 @@ void printFibonacci(int N) {
 }
 
 
-int main() {
-	//double number = sum(23.90, 23);
-	//cout << number << endl;
-	//cout << sumNumber(5) << endl;
-	//cout << factorialNumber(3) << endl;
-	//cout << sumDigits(2356) << endl;
-	//cout << factorialNumber(8, 2) << endl;
-	//Prime(7);
-
-    int N;
-    cout << "Enter the value of N: ";
-    cin >> N;
-
-    /*cout << "Prime numbers from z to " << N << "are: " << endl;
-
-
-    for (int i = 2; i <= N; i++) {
-        if (isPrime(i)) {
-            cout << i << " " << endl;
-        }
-    }
-	return 0;*/
-
-    printFibonacci(N);
-} 
+//int main() {
+//	//double number = sum(23.90, 23);
+//	//cout << number << endl;
+//	//cout << sumNumber(5) << endl;
+//	//cout << factorialNumber(3) << endl;
+//	//cout << sumDigits(2356) << endl;
+//	//cout << factorialNumber(8, 2) << endl;
+//	//Prime(7);
+//
+//    int N;
+//    cout << "Enter the value of N: ";
+//    cin >> N;
+//
+//    /*cout << "Prime numbers from z to " << N << "are: " << endl;
+//
+//
+//    for (int i = 2; i <= N; i++) {
+//        if (isPrime(i)) {
+//            cout << i << " " << endl;
+//        }
+//    }
+//	return 0;*/
+//
+//    printFibonacci(N);
+//} 

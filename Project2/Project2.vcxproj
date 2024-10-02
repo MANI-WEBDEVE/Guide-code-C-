@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="constionalStatment.cpp" />
     <ClCompile Include="functions.cpp" />
+    <ClCompile Include="index.cpp" />
     <ClCompile Include="loops.cpp" />
     <ClCompile Include="patterns.cpp" />
   </ItemGroup>

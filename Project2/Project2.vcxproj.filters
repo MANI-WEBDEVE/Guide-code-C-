@@ -12,6 +12,9 @@
     <Filter Include="Resource Files\functions">
       <UniqueIdentifier>{540b2ad1-b1ce-4175-8df8-eb377de70582}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Binary-Number-System">
+      <UniqueIdentifier>{209ebc87-3284-4ea4-95bf-e6eb8a018030}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="loops.cpp">
@@ -25,6 +28,9 @@
     </ClCompile>
     <ClCompile Include="functions.cpp">
       <Filter>Resource Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="index.cpp">
+      <Filter>Resource Files\Binary-Number-System</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
