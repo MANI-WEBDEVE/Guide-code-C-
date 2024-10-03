@@ -15,6 +15,9 @@
     <Filter Include="Resource Files\Binary-Number-System">
       <UniqueIdentifier>{209ebc87-3284-4ea4-95bf-e6eb8a018030}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Bitwise-operator">
+      <UniqueIdentifier>{95be408c-77e0-437c-87b3-d32a80f953f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="loops.cpp">
@@ -31,6 +34,9 @@
     </ClCompile>
     <ClCompile Include="binary-number-system.cpp">
       <Filter>Resource Files\Binary-Number-System</Filter>
+    </ClCompile>
+    <ClCompile Include="bitwise-operator.cpp">
+      <Filter>Resource Files\Bitwise-operator</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

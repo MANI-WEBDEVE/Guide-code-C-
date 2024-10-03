@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bitwise-operator.cpp" />
     <ClCompile Include="constionalStatment.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="binary-number-system.cpp" />

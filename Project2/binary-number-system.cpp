@@ -37,9 +37,13 @@ int binaryToDec(int decimal) {
 	return ans;
 }
 
-int main() {
+//int main() {
 	//cout << decimalBinary(50) << endl;
-	cout << decimalBinary(37) << endl;
-	cout << binaryToDec(1100101) << endl;
+
+	//cout << decimalBinary(37) << endl;
+
+	//cout << binaryToDec(1100101) << endl;
+
+	/*cout << decimalBinary(12) << endl;
 	return 0;
-}
+}*/
