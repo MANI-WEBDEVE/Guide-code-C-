@@ -21,6 +21,9 @@
     <Filter Include="Resource Files\Arrays-Cpp">
       <UniqueIdentifier>{9533c731-87f9-4fdd-a7c1-10c9272eb661}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Vectors">
+      <UniqueIdentifier>{4d4db087-7e8a-4c1a-97c4-e5d0b439b543}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="loops.cpp">
@@ -43,6 +46,9 @@
     </ClCompile>
     <ClCompile Include="Arrays.cpp">
       <Filter>Resource Files\Arrays-Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Resource Files\Vectors</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

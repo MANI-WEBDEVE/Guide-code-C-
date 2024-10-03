@@ -134,6 +134,7 @@
     <ClCompile Include="binary-number-system.cpp" />
     <ClCompile Include="loops.cpp" />
     <ClCompile Include="patterns.cpp" />
+    <ClCompile Include="Vectors.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
