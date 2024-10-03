@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="bitwise-operator.cpp" />
     <ClCompile Include="constionalStatment.cpp" />
     <ClCompile Include="functions.cpp" />

@@ -18,6 +18,9 @@
     <Filter Include="Resource Files\Bitwise-operator">
       <UniqueIdentifier>{95be408c-77e0-437c-87b3-d32a80f953f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Arrays-Cpp">
+      <UniqueIdentifier>{9533c731-87f9-4fdd-a7c1-10c9272eb661}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="loops.cpp">
@@ -37,6 +40,9 @@
     </ClCompile>
     <ClCompile Include="bitwise-operator.cpp">
       <Filter>Resource Files\Bitwise-operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrays.cpp">
+      <Filter>Resource Files\Arrays-Cpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
