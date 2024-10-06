@@ -12,7 +12,7 @@ using namespace std;
 //	}
 //	return -1;
 //}
-
+ 
 //void twoPointerApproch(int arr[], int size) {
 //	
 //	int start = 0;
