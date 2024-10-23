@@ -79,9 +79,9 @@ int uniqueVal2(int arr[], int size) {
 		}
 	}
 
-	return -1; // Agar koi unique element nahi mila
+	//return -1; // Agar koi unique element nahi mila
 }
-int main() {
+//int main() {
 	/*int size = 5;
 	int marks[5];
 
@@ -124,8 +124,8 @@ int main() {
 		cout << number[i] << endl;
 	}*/
 
-	int arrays2[6] = { 1,2,2,44,4 };
-	int size = sizeof(arrays2) / sizeof(int);
+	//int arrays2[6] = { 1,2,2,44,4 };
+	//int size = sizeof(arrays2) / sizeof(int);
 	/*int result = sumOfArr(arrays2, size);
 	cout << result << endl;*/
 	/*cout << "Original array: ";
@@ -142,19 +142,19 @@ int main() {
 	}
 
 	cout << endl;*/
-	int arr[] = { 4, 3,3,6,5, 2, 4, 2 }; // Example array with unique element 3
-	int size = sizeof(arr) / sizeof(arr[0]);
-
-	int result = uniqueVal2(arr, size);
-	if (result != -1) {
-		cout << "Unique value is: " << result << endl;
-	}
-	else {
-		cout << "No unique value found." << endl;
-	}
-
-
-
-	return 0;
-
-}
+//	int arr[] = { 4, 3,3,6,5, 2, 4, 2 }; // Example array with unique element 3
+//	int size = sizeof(arr) / sizeof(arr[0]);
+//
+//	int result = uniqueVal2(arr, size);
+//	if (result != -1) {
+//		cout << "Unique value is: " << result << endl;
+//	}
+//	else {
+//		cout << "No unique value found." << endl;
+//	}
+//
+//
+//
+//	return 0;
+//
+//}
