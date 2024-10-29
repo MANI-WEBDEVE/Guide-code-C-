@@ -133,6 +133,7 @@
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="binary-number-system.cpp" />
     <ClCompile Include="loops.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="patterns.cpp" />
     <ClCompile Include="Vectors.cpp" />
   </ItemGroup>

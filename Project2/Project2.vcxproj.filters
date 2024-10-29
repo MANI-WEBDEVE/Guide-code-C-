@@ -24,6 +24,9 @@
     <Filter Include="Resource Files\Vectors">
       <UniqueIdentifier>{4d4db087-7e8a-4c1a-97c4-e5d0b439b543}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Kadane-Algorithum">
+      <UniqueIdentifier>{2cf5bf38-aebf-4de8-9102-dafb919892e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="loops.cpp">
@@ -49,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="Vectors.cpp">
       <Filter>Resource Files\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files\Kadane-Algorithum</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
