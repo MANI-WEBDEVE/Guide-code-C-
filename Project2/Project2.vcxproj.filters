@@ -27,6 +27,9 @@
     <Filter Include="Resource Files\Kadane-Algorithum">
       <UniqueIdentifier>{2cf5bf38-aebf-4de8-9102-dafb919892e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Moorse-Majority-Algo">
+      <UniqueIdentifier>{01fe7c8a-19c6-47a6-bb0a-f5661e105cfd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="loops.cpp">
@@ -55,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Resource Files\Kadane-Algorithum</Filter>
+    </ClCompile>
+    <ClCompile Include="Moorse.cpp">
+      <Filter>Resource Files\Moorse-Majority-Algo</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
