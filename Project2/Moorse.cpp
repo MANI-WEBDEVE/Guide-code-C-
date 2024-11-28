@@ -38,13 +38,39 @@ vector<int> findPairWithTargetSum(const vector<int>& nums, int target) {
 
 }
 
-int main() {
-    vector<int> nums = { 2, 3, 4, 5, 6 };
-    int target = 9;
+int MoorsAlgo(vector<int>& nums) {
+    int n = nums.size();
 
-    vector<int> ans = findPairWithTargetSum(nums, target);
+
+    for (int val: nums) {
+             int frequency = 0;
+            for (int el : nums) {
+                  if (el == val) {
+                    frequency++;
+                  }
+            }
+            if (frequency > n / 2) {
+                return val;
+            }
+    }
+}
+
+
+
+int main() {
+    vector<int> num = { 2, 3, 4, 5, 6 };
+    int target = 9;
+        
+    vector<int> nums = { 1,2,1,1,2,2,2 };
+
+    int result = MoorsAlgo(nums);
+
+    cout << result << endl;
+
+    vector<int> ans = findPairWithTargetSum(num, target);
 
     if (!ans.empty()) {
+     
         cout << ans[0] << ", " << ans[1] << endl;
     }
     else {
