@@ -74,24 +74,24 @@ int MoorsAlgo(vector<int>& nums) {
 
 
 int main() {
-    vector<int> num = { 2, 3, 4, 5, 6 };
-    int target = 9;
-        
-    vector<int> nums = { 1,2,1,1,2,1,2 };
+   vector<int> num = { 2, 3, 4, 5, 6 };
+   int target = 9;
+       
+   vector<int> nums = { 1,2,1,1,2,1,2 };
 
-    int result = MoorsAlgo(nums);
+   int result = MoorsAlgo(nums);
 
-    cout << result << endl;
+   cout << result << endl;
 
-    vector<int> ans = findPairWithTargetSum(num, target);
+   vector<int> ans = findPairWithTargetSum(num, target);
 
-    if (!ans.empty()) {
-     
-        cout << ans[0] << ", " << ans[1] << endl;
-    }
-    else {
-        cout << "No pair found with the given target sum." << endl;
-    }
+   if (!ans.empty()) {
+    
+       cout << ans[0] << ", " << ans[1] << endl;
+   }
+   else {
+       cout << "No pair found with the given target sum." << endl;
+   }
 
-    return 0;
+   return 0;
 }

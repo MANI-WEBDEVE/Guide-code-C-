@@ -1,0 +1,36 @@
+Time and Space Complexity;
+
+Time Complexity;
+Not the actual time taken but amount of time taken as
+function of input size;
+
+Time complexity ka matlab hota hai; 
+"Ek algorithm ko apna kaam complete karna me kitna time lagta hai,
+jab input ka size badhta hai";
+
+
+Space Complexity;
+Amount of space taken by an algorithm as function of input size(n);
+
+example;
+input -> arr;
+output -> square of each element of array;
+{1,2,3,4}(n) array input;
+{1,4,9,16}(n) extra space
+
+space complexity = O(n);
+
+example 2;
+input -> arr;
+output -> sum of given array;
+
+`int sum = 0; 
+for(int i =0; i<n.size(); i++){
+	sum+= array[i];
+}
+return sum;
+`
+n = 10;        axulary space occupied;
+n = 20;
+n = n;				constant O(1)
+S
