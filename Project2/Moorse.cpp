@@ -40,9 +40,23 @@ vector<int> findPairWithTargetSum(const vector<int>& nums, int target) {
 
 int MoorsAlgo(vector<int>& nums) {
     int n = nums.size();
+    int freq = 0, ans = 0;
 
+    for (int i = 0; i < n; i++) {
+        if (freq == 0) {
+            ans = nums[i];
+        }
+        if (ans == nums[i]) {
+            freq++;
+        }
+        else {
+            freq--;
+            //ans = nums[i];
+        }
+    }
+    return ans;
 
-    for (int val: nums) {
+   /* for (int val: nums) {
              int frequency = 0;
             for (int el : nums) {
                   if (el == val) {
@@ -52,8 +66,10 @@ int MoorsAlgo(vector<int>& nums) {
             if (frequency > n / 2) {
                 return val;
             }
-    }
+    }*/
 }
+
+
 
 
 
@@ -61,7 +77,7 @@ int main() {
     vector<int> num = { 2, 3, 4, 5, 6 };
     int target = 9;
         
-    vector<int> nums = { 1,2,1,1,2,2,2 };
+    vector<int> nums = { 1,2,1,1,2,1,2 };
 
     int result = MoorsAlgo(nums);
 
